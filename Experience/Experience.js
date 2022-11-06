@@ -19,6 +19,8 @@ export default class Experience {
 
     this.canvas = canvas;
     this.scene = new THREE.Scene();
+    // this.scene.background = new THREE.Color(0x2d101e);
+    this.scene.background = new THREE.Color(0xdddddd);
     this.time = new Time();
 
     this.sizes = new Sizes();
